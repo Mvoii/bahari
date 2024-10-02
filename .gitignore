@@ -1,0 +1,7 @@
+*.o
+.vscode
+main
+main_2
+main_3
+main_serv
+cmake-build-debug
