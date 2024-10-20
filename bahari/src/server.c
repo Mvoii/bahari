@@ -1,3 +1,4 @@
+// server.c
 #include  "../include/chat_utils.h"
 
 int main(void)
