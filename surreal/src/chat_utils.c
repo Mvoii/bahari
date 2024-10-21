@@ -88,7 +88,7 @@ void connect_to_peers(char **peer_ips, int peer_count)
             all_peers[peer_count].peer_addr = peer_addr;
             peer_count++;
 
-            print("Connected to peer %s\n", peer_ips[i]);
+            printf("Connected to peer %s\n", peer_ips[i]);
         }
         else
         {

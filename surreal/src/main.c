@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
 
     // clean up
     free(message);
-    pthread_cancel(peer_listener);
+    pthread_cancel(listener_thread);
     pthread_join(listener_thread, NULL);
     close(server_fd);
 

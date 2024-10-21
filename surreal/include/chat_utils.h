@@ -21,9 +21,9 @@ struct peer_socket_t {
 };
 
 // Globals for all peers
-struct peer_socket_t all_peers[MAX_CLIENTS];
-int peer_count = 0;
-pthread_mutex_t peer_mutex = PTHREAD_MUTEX_INITIALIZER;
+// struct peer_socket_t all_peers[MAX_CLIENTS];
+//int peer_count = 0;
+//pthread_mutex_t peer_mutex = PTHREAD_MUTEX_INITIALIZER;
 
 // Function declarations
 int create_TCP_IPv4_socket();
