@@ -1,4 +1,4 @@
-// main.c
+// src/main.c
 #include "../include/chat_utils.h"
 
 int main(int argc, char *argv[])

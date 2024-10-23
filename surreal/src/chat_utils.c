@@ -1,4 +1,4 @@
-// chat_utils.h
+// src/chat_utils.h
 #include "../include/chat_utils.h"
 
 struct peer_socket_t all_peers[MAX_CLIENTS];
